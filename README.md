@@ -44,5 +44,5 @@ Please kindly consider citing our papers in your publications.
   title={{RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization}},
   author={Tsai, Ting Yu and Yu, An and Lee, Lucy and Ye, Felix and Shin, Damian and Kao, Tzu-Jen and Li, Xin and Chang, Ming-Ching},
   year={2026}
-} -->
-```
+}
+``` -->
