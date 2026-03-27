@@ -6,7 +6,7 @@ Official repository for RatSeizure, a benchmark dataset and baseline model for t
 
 Video festures and annotations will be releasing soon.
 _________________
-##Content Warning
+## Content Warning
 
 This repository contains data from rat seizure experiments, which some may find disturbing. Viewer discretion is advised.
 
