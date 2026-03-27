@@ -6,6 +6,12 @@ Official repository for RatSeizure, a benchmark dataset and baseline model for t
 
 Video festures and annotations will be releasing soon.
 _________________
+##Content Warning
+
+This repository contains data from rat seizure experiments, which some may find disturbing. Viewer discretion is advised.
+
+All animal use complied with guidelines from the National Institutes of Health (NIH) and the Albany Medical College (AMC) Institutional Animal Care and Use Committee (IACUC).
+_________________
 ## Sample Dataset Visualization
 
 Below is an example visualization of seizure behaviors across different Action Units.  
