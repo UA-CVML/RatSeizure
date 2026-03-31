@@ -19,19 +19,19 @@ The RatSeizure dataset defines 14 seizure-related behavioral Action Units (AUs).
 | AU                          | Description                                  |
 | --------------------------- | -------------------------------------------- |
 | Normal                      | No seizure observed                          |
-| Head Nodding                | Repeated up/down "yes" head motion           |
 | Staring                     | Behavioral arrest without movement           |
-| Neck Jerk                   | Repeated, intense or rapid "yes" head motion |
 | Mouth Clonus                | Mouth and jaw twitching                      |
-| Unilateral Forelimb Clonus  | Repetitive forelimb movement on one side     |
 | Wet-Dog Shake               | Whole body shaking                           |
+| Head Nodding                | Repeated up/down "yes" head motion           |
+| Neck Jerk                   | Repeated, intense or rapid "yes" head motion |
+| Unilateral Forelimb Clonus  | Repetitive forelimb movement on one side     |
 | Bilateral Forelimb Clonus   | Repetitive movement of both forelimbs        |
-| Rearing                     | Standing upright on hind limbs               |
 | Alternating Forelimb Clonus | Alternating forelimb movements               |
-| Jumping                     | Sudden upward jump                           |
+| Rearing                     | Standing upright on hind limbs               |
 | Falling                     | Loss of posture with uncontrolled fall       |
-| Tonic Extension             | Limbs rigidly extended while lying           |
 | Wild Running                | Rapid uncontrolled circular running          |
+| Jumping                     | Sudden upward jump                           |
+| Tonic Extension             | Limbs rigidly extended while lying           |
 
 
 ________________
