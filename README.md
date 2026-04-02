@@ -34,6 +34,11 @@ The RatSeizure dataset defines 14 seizure-related behavioral Action Units (AUs).
 | Tonic Extension             | Limbs rigidly extended while lying           |
 
 ________________
+## Dataset Access
+
+To request access to the RatSeizure dataset, please complete the dataset request form: [Google Form link](https://forms.gle/64cwAcxg1NmTDnmLA)
+
+________________
 ## License and Data Use
 
 The **RatSeizure Dataset** is released by the **CVML Lab, University at Albany, SUNY** for **research and educational use only**. RatSeizure is presented as a publicly available rat seizure behavior benchmark for research use.
