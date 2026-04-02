@@ -72,7 +72,7 @@ The RatSeizure Dataset is provided **“as is”**, without warranty of any kind
 ________________
 ## Citation
 Please kindly consider citing our papers in your publications. 
-```bash
+```
 @article{Tsai2026RatSeizure,
   title   = {{RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization}}, 
   author  = {Ting Yu Tsai and An Yu and Lucy Lee and Felix X.-F. Ye and Damian S. Shin and Tzu-Jen Kao and Xin Li and Ming-Ching Chang},
