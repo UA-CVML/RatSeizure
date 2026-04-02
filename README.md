@@ -40,10 +40,10 @@ The **RatSeizure Dataset** is released by the **UA-CVML Lab, University at Alban
 
 Please review the following repository documents before downloading, accessing, or using the dataset:
 
-- **`RatSeizure LICENSE.md`**: RatSeizure dataset license terms
+- **`LICENSE`**: RatSeizure dataset license terms
 - **`Data Use Agreement.md`**: RatSeizure data use agreement and user obligations
 
-By downloading, accessing, or using this dataset, you agree to the terms described in both **`RatSeizure LICENSE.md`** and **`Data Use Agreement.md`**.
+By downloading, accessing, or using this dataset, you agree to the terms described in both **`LICENSE`** and **`Data Use Agreement.md`**.
 
 ### Summary of Use Conditions
 - You may use the dataset only for lawful research, educational, and scholarly purposes.
