@@ -33,14 +33,43 @@ The RatSeizure dataset defines 14 seizure-related behavioral Action Units (AUs).
 | Jumping                     | Sudden upward jump                           |
 | Tonic Extension             | Limbs rigidly extended while lying           |
 
-
 ________________
-<!-- ## Citation
+## License and Data Use
+
+The **RatSeizure Dataset** is released by the **UA-CVML Lab, University at Albany, SUNY** for **research and educational use only**. RatSeizure is presented as a publicly available rat seizure behavior benchmark for research use. :contentReference[oaicite:0]{index=0}
+
+Please review the following repository documents before downloading, accessing, or using the dataset:
+
+- **`RatSeizure LICENSE.md`**: RatSeizure dataset license terms
+- **`Data Use Agreement.md`**: RatSeizure data use agreement and user obligations
+
+By downloading, accessing, or using this dataset, you agree to the terms described in both **`RatSeizure LICENSE.md`** and **`Data Use Agreement.md`**.
+
+### Summary of Use Conditions
+- You may use the dataset only for lawful research, educational, and scholarly purposes.
+- You may not use the dataset for any unlawful, harmful, deceptive, or misleading purpose.
+- You may not redistribute, sublicense, resell, publish, or otherwise share the dataset, in whole or in part, without prior written permission from the dataset maintainers.
+- You must exercise reasonable care to protect the physical and electronic security of the dataset and prevent unauthorized access or misuse.
+- If you discover any content in the dataset, metadata, annotations, or related documentation that appears sensitive, confidential, or improperly included, you must promptly report it to **uacvmllab@gmail.com** and identify the relevant location of the issue.
+- Any paper, thesis, report, preprint, presentation, benchmark submission, model release, or software release arising from use of the dataset must appropriately cite the RatSeizure dataset and associated publication(s).
+- Users are strongly encouraged to release code, evaluation scripts, and related reproducibility materials associated with published results whenever permitted by institutional, legal, and collaborative constraints.
+- The dataset is provided for research purposes only and is **not** intended for clinical diagnosis, treatment, medical decision-making, or veterinary decision-making.
+
+### No Warranty
+The RatSeizure Dataset is provided **“as is”**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, title, and noninfringement. In no event shall the authors, copyright holders, dataset maintainers, or the UA-CVML Lab, University at Albany, SUNY be liable for any claim, damages, or other liability arising from, out of, or in connection with the dataset or its use.
+
+### Contact
+**CVML Lab, University at Albany, SUNY**  
+**Email:** uacvmllab@gmail.com
+________________
+## Citation
 Please kindly consider citing our papers in your publications. 
 ```bash
-@article{Tsai2026ratseizure,
-  title={{RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization}},
-  author={Tsai, Ting Yu and Yu, An and Lee, Lucy and Ye, Felix and Shin, Damian and Kao, Tzu-Jen and Li, Xin and Chang, Ming-Ching},
-  year={2026}
+@article{Tsai2026RatSeizure,
+  title   = {{RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization}}, 
+  author  = {Ting Yu Tsai and An Yu and Lucy Lee and Felix X.-F. Ye and Damian S. Shin and Tzu-Jen Kao and Xin Li and Ming-Ching Chang},
+  year    = {2026},
+  journal = {arXiv preprint arXiv:2603.26780},
+  url     = {https://arxiv.org/abs/2603.26780}
 }
-``` -->
+```

@@ -4,7 +4,7 @@
 
 The RatSeizure Dataset License
 
-Copyright (c) 2026 [University at Albany, SUNY / UA-CVML Lab / Dataset Authors]
+Copyright (c) 2026 University at Albany, SUNY, UA-CVML Lab
 
 The RatSeizure dataset is made available for lawful research and educational purposes. By downloading, accessing, or using the dataset, the user, hereinafter referred to as the “LICENSEE,” agrees to the following terms and conditions:
 
