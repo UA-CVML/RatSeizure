@@ -1,6 +1,6 @@
 # RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization
 
-This repository is the official implementation of our paper [RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization]().
+This repository is the official implementation of our paper [RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization](https://arxiv.org/abs/2603.26780).
 
 Official repository for RatSeizure, a benchmark dataset and baseline model for temporal seizure behavior localization in rats.
 
