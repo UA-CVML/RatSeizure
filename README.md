@@ -36,7 +36,7 @@ The RatSeizure dataset defines 14 seizure-related behavioral Action Units (AUs).
 ________________
 ## License and Data Use
 
-The **RatSeizure Dataset** is released by the **UA-CVML Lab, University at Albany, SUNY** for **research and educational use only**. RatSeizure is presented as a publicly available rat seizure behavior benchmark for research use. :contentReference[oaicite:0]{index=0}
+The **RatSeizure Dataset** is released by the **CVML Lab, University at Albany, SUNY** for **research and educational use only**. RatSeizure is presented as a publicly available rat seizure behavior benchmark for research use.
 
 Please review the following repository documents before downloading, accessing, or using the dataset:
 
@@ -44,6 +44,9 @@ Please review the following repository documents before downloading, accessing, 
 - **`Data Use Agreement.md`**: RatSeizure data use agreement and user obligations
 
 By downloading, accessing, or using this dataset, you agree to the terms described in both **`LICENSE`** and **`Data Use Agreement.md`**.
+
+### Access Policy
+Only users who have signed the **Data Use Agreement (DUA)** are permitted to access the dataset files.
 
 ### Summary of Use Conditions
 - You may use the dataset only for lawful research, educational, and scholarly purposes.
@@ -56,7 +59,7 @@ By downloading, accessing, or using this dataset, you agree to the terms describ
 - The dataset is provided for research purposes only and is **not** intended for clinical diagnosis, treatment, medical decision-making, or veterinary decision-making.
 
 ### No Warranty
-The RatSeizure Dataset is provided **“as is”**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, title, and noninfringement. In no event shall the authors, copyright holders, dataset maintainers, or the UA-CVML Lab, University at Albany, SUNY be liable for any claim, damages, or other liability arising from, out of, or in connection with the dataset or its use.
+The RatSeizure Dataset is provided **“as is”**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, title, and noninfringement. In no event shall the authors, copyright holders, dataset maintainers, or the **CVML Lab, University at Albany, SUNY** be liable for any claim, damages, or other liability arising from, out of, or in connection with the dataset or its use.
 
 ### Contact
 **CVML Lab, University at Albany, SUNY**  
