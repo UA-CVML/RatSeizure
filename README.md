@@ -16,22 +16,22 @@ ________________
 ## Action Unit Labels
 The RatSeizure dataset defines 14 seizure-related behavioral Action Units (AUs).
 
-| AU                          | Description                                  |
-| --------------------------- | -------------------------------------------- |
-| Normal                      | No seizure observed                          |
-| Staring                     | Behavioral arrest without movement           |
-| Mouth Clonus                | Mouth and jaw twitching                      |
-| Wet-Dog Shake               | Whole body shaking                           |
-| Head Nodding                | Repeated up/down "yes" head motion           |
-| Neck Jerk                   | Repeated, intense or rapid "yes" head motion |
-| Unilateral Forelimb Clonus  | Repetitive forelimb movement on one side     |
-| Bilateral Forelimb Clonus   | Repetitive movement of both forelimbs        |
-| Alternating Forelimb Clonus | Alternating forelimb movements               |
-| Rearing                     | Standing upright on hind limbs               |
-| Falling                     | Loss of posture with uncontrolled fall       |
-| Wild Running                | Rapid uncontrolled circular running          |
-| Jumping                     | Sudden upward jump                           |
-| Tonic Extension             | Limbs rigidly extended while lying           |
+| Label | AU                          | Description                                  |
+| ----- | --------------------------- | -------------------------------------------- |
+|   0   | Normal                      | No seizure observed                          |
+|   1   | Staring                     | Behavioral arrest without movement           |
+|   2   | Mouth Clonus                | Mouth and jaw twitching                      |
+|   3   | Wet-Dog Shake               | Whole body shaking                           |
+|   4   | Head Nodding                | Repeated up/down "yes" head motion           |
+|   5   | Neck Jerk                   | Repeated, intense or rapid "yes" head motion |
+|   6   | Unilateral Forelimb Clonus  | Repetitive forelimb movement on one side     |
+|   7   | Bilateral Forelimb Clonus   | Repetitive movement of both forelimbs        |
+|   8   | Alternating Forelimb Clonus | Alternating forelimb movements               |
+|   9   | Rearing                     | Standing upright on hind limbs               |
+|   10  | Falling                     | Loss of posture with uncontrolled fall       |
+|   11  | Wild Running                | Rapid uncontrolled circular running          |
+|   12  | Jumping                     | Sudden upward jump                           |
+|   13  | Tonic Extension             | Limbs rigidly extended while lying           |
 
 ________________
 ## Dataset Access
