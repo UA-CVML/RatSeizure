@@ -6,11 +6,28 @@ Official repository for RatSeizure, a benchmark dataset and baseline model for t
 
 Video festures and annotations will be releasing soon.
 _________________
-## Content Warning
+## Notice
 
-This repository contains data from rat seizure experiments, which some may find disturbing. Viewer discretion is advised.
+<p style="font-size: 1.15em;"><strong>All animal use complied with guidelines from the National Institutes of Health (NIH) and the Albany Medical College (AMC) Institutional Animal Care and Use Committee (IACUC).</strong></p>
 
-All animal use complied with guidelines from the National Institutes of Health (NIH) and the Albany Medical College (AMC) Institutional Animal Care and Use Committee (IACUC).
+Protocol Review: All projects involving vertebrate animals have been reviewed and approved by the IACUC before any animal work begins, ensuring compliance with ethical standards and appropriate scientific justification for species and numbers used.
+
+<!-- This repository contains data from rat seizure experiments, which some may find disturbing. Viewer discretion is advised.
+
+All animal use complied with guidelines from the National Institutes of Health (NIH) and the Albany Medical College (AMC) Institutional Animal Care and Use Committee (IACUC). -->
+
+________________
+## Demo Snapshots
+
+Below are static screenshots from `assets/AI_ratseizure_demo.mp4`.
+<p><em>Note: The cable is for neural-signaling.</em></p>
+<p align="center">
+  <img src="assets/AI_ratseizure_demo_01.jpg" alt="RatSeizure demo snapshot 1" width="75%">
+</p>
+
+<!-- <p align="center">
+  <img src="assets/AI_ratseizure_demo_03.jpg" alt="RatSeizure demo snapshot 3" width="45%">
+</p> -->
 
 ________________
 ## Action Unit Labels
@@ -36,24 +53,28 @@ The RatSeizure dataset defines 14 seizure-related behavioral Action Units (AUs).
 ________________
 ## Dataset Access
 
+The RatSeizure project website and repository are publicly viewable. Dataset access is provided in accordance with the repository license and Data Use Agreement.
+
 To request access to the RatSeizure dataset, please complete the dataset request form: [Google Form link](https://forms.gle/64cwAcxg1NmTDnmLA)
 
 ________________
 ## License and Data Use
 
-The **RatSeizure Dataset** is released by the **CVML Lab, University at Albany, SUNY** for **research and educational use only**. RatSeizure is presented as a publicly available rat seizure behavior benchmark for research use.
+The **RatSeizure Dataset** is released by the **CVML Lab, University at Albany, SUNY, and Albany Medical College (AMC)** for **research and educational use only**.
 
 Please review the following repository documents before downloading, accessing, or using the dataset:
 
-- **`LICENSE`**: RatSeizure dataset license terms
+- **`LICENSE.md`**: RatSeizure dataset license terms
 - **`Data Use Agreement.md`**: RatSeizure data use agreement and user obligations
 
-By downloading, accessing, or using this dataset, you agree to the terms described in both **`LICENSE`** and **`Data Use Agreement.md`**.
+By downloading, accessing, or using this dataset, you agree to the terms described in both **`LICENSE.md`** and **`Data Use Agreement.md`**.
 
 ### Access Policy
+
 Only users who have signed the **Data Use Agreement (DUA)** are permitted to access the dataset files.
 
 ### Summary of Use Conditions
+
 - You may use the dataset only for lawful research, educational, and scholarly purposes.
 - You may not use the dataset for any unlawful, harmful, deceptive, or misleading purpose.
 - You may not redistribute, sublicense, resell, publish, or otherwise share the dataset, in whole or in part, without prior written permission from the dataset maintainers.
@@ -61,14 +82,17 @@ Only users who have signed the **Data Use Agreement (DUA)** are permitted to acc
 - If you discover any content in the dataset, metadata, annotations, or related documentation that appears sensitive, confidential, or improperly included, you must promptly report it to **uacvmllab@gmail.com** and identify the relevant location of the issue.
 - Any paper, thesis, report, preprint, presentation, benchmark submission, model release, or software release arising from use of the dataset must appropriately cite the RatSeizure dataset and associated publication(s).
 - Users are strongly encouraged to release code, evaluation scripts, and related reproducibility materials associated with published results whenever permitted by institutional, legal, and collaborative constraints.
-- The dataset is provided for research purposes only and is **not** intended for clinical diagnosis, treatment, medical decision-making, or veterinary decision-making.
+- The dataset is provided for research, educational, and related scholarly purposes only and is **not** intended for clinical diagnosis, treatment, medical decision-making, or veterinary decision-making.
 
 ### No Warranty
-The RatSeizure Dataset is provided **“as is”**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, title, and noninfringement. In no event shall the authors, copyright holders, dataset maintainers, or the **CVML Lab, University at Albany, SUNY** be liable for any claim, damages, or other liability arising from, out of, or in connection with the dataset or its use.
+
+The RatSeizure Dataset is provided **“as is”**, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, title, and noninfringement. In no event shall the authors, copyright holders, dataset maintainers, or the **CVML Lab, University at Albany, SUNY, and Albany Medical College (AMC)** be liable for any claim, damages, or other liability arising from, out of, or in connection with the dataset or its use.
 
 ### Contact
-**CVML Lab, University at Albany, SUNY**  
-**Email:** uacvmllab@gmail.com
+
+**CVML Lab, University at Albany, SUNY (Email: uacvmllab@gmail.com)**  
+**Albany Medical College (AMC)**  
+
 ________________
 ## Citation
 Please kindly consider citing our papers in your publications. 
