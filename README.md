@@ -24,6 +24,7 @@ Below are static screenshots from `assets/AI_ratseizure_demo.mp4`.
 <p align="center">
   <img src="assets/AI_ratseizure_demo_01.jpg" alt="RatSeizure demo snapshot 1" width="75%">
 </p>
+
 ________________
 ## Action Unit Labels
 The RatSeizure dataset defines 14 seizure-related behavioral Action Units (AUs).
