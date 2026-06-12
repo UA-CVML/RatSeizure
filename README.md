@@ -48,7 +48,7 @@ The RatSeizure dataset defines 14 seizure-related behavioral Action Units (AUs).
 ________________
 ## Dataset Availability
 
-To support reproducible research, RatSeizure annotations, train/validation/test splits, extracted video features, and evaluation scripts are publicly available.
+To support reproducible research, RatSeizure annotations, train/test splits, extracted video features, and evaluation scripts are publicly available.
 
 Due to animal-study ethics, institutional requirements, and data-governance restrictions, access to raw experimental videos requires completion of a Data Use Agreement (DUA).
 
