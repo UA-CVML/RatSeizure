@@ -54,7 +54,7 @@ Due to animal-study ethics, institutional requirements, and data-governance rest
 
 Public resources:
 - Annotations
-- Train/Validation/Test splits
+- Train/Test splits
 - Extracted video features
 - Evaluation scripts
 - Baseline implementations
