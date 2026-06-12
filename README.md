@@ -47,11 +47,23 @@ The RatSeizure dataset defines 14 seizure-related behavioral Action Units (AUs).
 |   13  | Tonic Extension             | Limbs rigidly extended while lying           |
 
 ________________
-## Dataset Access
+## Dataset Availability
 
-The RatSeizure project website and repository are publicly viewable. Dataset access is provided in accordance with the repository license and Data Use Agreement.
+To support reproducible research, RatSeizure annotations, train/validation/test splits, extracted video features, and evaluation scripts are publicly available.
 
-To request access to the RatSeizure dataset, please complete the dataset request form: [Google Form link](https://forms.gle/64cwAcxg1NmTDnmLA)
+Due to animal-study ethics, institutional requirements, and data-governance restrictions, access to raw experimental videos requires completion of a Data Use Agreement (DUA).
+
+Public resources:
+- Annotations
+- Train/Validation/Test splits
+- Extracted video features
+- Evaluation scripts
+- Baseline implementations
+
+Restricted resources:
+- Raw experimental videos (available upon approved request)
+
+To request access to the RatSeizure dataset videos, please complete the dataset request form: [Google Form link](https://forms.gle/64cwAcxg1NmTDnmLA)
 
 ________________
 ## License and Data Use
