@@ -4,7 +4,6 @@ This repository is the official implementation of our paper [RatSeizure: A Bench
 
 Official repository for RatSeizure, a benchmark dataset and baseline model for temporal seizure behavior localization in rats.
 
-Video festures and annotations will be releasing soon.
 _________________
 ## Notice
 
