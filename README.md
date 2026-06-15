@@ -70,15 +70,15 @@ ________________
 The **RatSeizure Dataset** is released by the **CVML Lab, University at Albany, SUNY, and Albany Medical College (AMC)** for **research and educational use only**.
 
 Please review the following repository documents before downloading, accessing, or using the dataset:
-
-- **`LICENSE`**: RatSeizure dataset license terms
+- **`LICENSE`**: This project is released under the Apache 2.0 License. See the LICENSE file for details.
+- **`DATA_LICENSE.md`**: RatSeizure dataset license terms
 - **`Data Use Agreement.md`**: RatSeizure data use agreement and user obligations
 
-By downloading, accessing, or using this dataset, you agree to the terms described in both **`LICENSE`** and **`Data Use Agreement.md`**.
+By downloading, accessing, or using this dataset, you agree to the terms described in both **`DATA_LICENSE.md`** and **`Data Use Agreement.md`**.
 
 ### Access Policy
 
-Only users who have signed the **Data Use Agreement (DUA)** are permitted to access the dataset files.
+Only users who have signed the **Data Use Agreement (DUA)** are permitted to access the raw video files.
 
 ### Summary of Use Conditions
 
@@ -101,6 +101,72 @@ The RatSeizure Dataset is provided **“as is”**, without warranty of any kind
 **Albany Medical College (AMC)**  
 
 ________________
+## To Reproduce Our RatSeizure Results
+
+### Environment
+
+- Python 3.10 recommended
+- PyTorch 1.11
+- torchvision 0.12
+- numpy 1.x
+- pandas
+- PyYAML
+- h5py
+- joblib
+- tensorboard
+- tqdm
+
+**Recommended Install**
+
+`requirements.txt` contains portable Python dependencies only. The `nms_1d_cpu` extension is built separately below.
+
+```bash
+conda create -n ratseizure python=3.10 -y
+conda activate ratseizure
+python -m pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+python -m pip install -r requirements.txt
+```
+**Build the NMS Extension**
+
+Evaluation and inference require `nms_1d_cpu` to be compiled and importable in the active conda environment.
+Build it from the repository root:
+
+```bash
+cd libs/utils
+python setup.py clean --all
+python -m pip install --no-build-isolation --force-reinstall .
+cd ../..
+```
+
+### Evaluation
+
+The folder structure should look like
+```
+RaSeformer
+│   eval.py
+│   README.md
+│   ...  
+└───ckpt/
+│    └───ratseizure_i3d/
+│         └───ratseizure_ckpt.pth.tar
+└───data/
+│    ratseizure/
+│    │	 └───ratseizure_i3d_features/
+│    │	 └───ratseizure.json
+│    └───...
+│   ...
+```
+
+```shell
+python eval.py configs/ratseizure_i3d.yaml ckpt/ratseizure_i3d
+```
+The results (mAP at tIoUs) should be
+
+| Method            |  0.3  |  0.4  |  0.5  |  0.6  |  0.7  |  Avg  |
+|-------------------|-------|-------|-------|-------|-------|-------|
+| RaSeformer        | 64.83 | 61.53 | 57.56 | 53.03 | 48.47 | 57.08 |
+
+________________
 ## Citation
 Please kindly consider citing our papers in your publications. 
 ```
@@ -110,5 +176,20 @@ Please kindly consider citing our papers in your publications.
   year    = {2026},
   journal = {arXiv preprint arXiv:2603.26780},
   url     = {https://arxiv.org/abs/2603.26780}
+}
+```
+________________
+## Attribution
+This codebase is adapted from ActionFormer.
+
+```bibtex
+@inproceedings{zhang2022actionformer,
+  title={ActionFormer: Localizing Moments of Actions with Transformers},
+  author={Zhang, Chen-Lin and Wu, Jianxin and Li, Yin},
+  booktitle={European Conference on Computer Vision},
+  series={LNCS},
+  volume={13664},
+  pages={492-510},
+  year={2022}
 }
 ```
