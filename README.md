@@ -139,6 +139,8 @@ cd ../..
 ```
 
 ### Evaluation
+**Download Features and Annotations**
+* Download *ratseizure_i3d_features.zip* and pretrained model *ckpt.zip* from [this Google Drive link](https://drive.google.com/drive/folders/1Pe5WmDjoiOxZnk2_Twvq0tOSBA39eIrb?usp=drive_link).
 
 The folder structure should look like
 ```
