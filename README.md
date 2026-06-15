@@ -144,9 +144,8 @@ cd ../..
 
 The folder structure should look like
 ```
-RaSeformer
+RaSeformer/
 │   eval.py
-│   README.md
 │   ...  
 └───ckpt/
 │    └───ratseizure_i3d/
