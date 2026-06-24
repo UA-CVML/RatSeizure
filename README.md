@@ -1,6 +1,6 @@
 # RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization
 
-This repository is the official implementation of our paper [RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization](https://arxiv.org/abs/2603.26780).
+This repository is the official implementation of our paper `RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization`.
 
 Official repository for RatSeizure, a benchmark dataset and baseline model for temporal seizure behavior localization in rats.
 
@@ -166,31 +166,3 @@ The results (mAP at tIoUs) should be
 | Method            |  0.3  |  0.4  |  0.5  |  0.6  |  0.7  |  Avg  |
 |-------------------|-------|-------|-------|-------|-------|-------|
 | RaSeformer        | 64.83 | 61.53 | 57.56 | 53.03 | 48.47 | 57.08 |
-
-________________
-## Citation
-Please kindly consider citing our papers in your publications. 
-```bibtex
-@article{Tsai2026RatSeizure,
-  title   = {{RatSeizure: A Benchmark and Saliency-Context Transformer for Rat Seizure Localization}}, 
-  author  = {Ting Yu Tsai and An Yu and Lucy Lee and Felix X.-F. Ye and Damian S. Shin and Tzu-Jen Kao and Xin Li and Ming-Ching Chang},
-  year    = {2026},
-  journal = {arXiv preprint arXiv:2603.26780},
-  url     = {https://arxiv.org/abs/2603.26780}
-}
-```
-________________
-## Attribution
-This codebase is adapted from ActionFormer.
-
-```bibtex
-@inproceedings{zhang2022actionformer,
-  title={ActionFormer: Localizing Moments of Actions with Transformers},
-  author={Zhang, Chen-Lin and Wu, Jianxin and Li, Yin},
-  booktitle={European Conference on Computer Vision},
-  series={LNCS},
-  volume={13664},
-  pages={492-510},
-  year={2022}
-}
-```
